@@ -34,10 +34,12 @@ Custom Tasks Scripts Samples
 ###  REST API
 ####Admin (upper right) --> Advanced
 
-Explain UCSD Rest API here
+Explain UCSD Rest API here, setting it up, API Key
 ```
 Sample code here
 ```
+Call a UCSD workflow from Python - <https://communities.cisco.com/docs/DOC-56724> 
+
 
 ###  Communities
 
@@ -49,8 +51,9 @@ https://communities.cisco.com/docs/DOC-56419
 **Task Index**
 
 ### Some Important Examlpe Worflows
-Calling a workflow from a workflow
-Calling a REST API from a task
++ Calling a workflow from a workflow - https://communities.cisco.com/docs/DOC-55973
+
++ Calling a REST API from a task
 
 ### Open Automation
 
@@ -59,13 +62,15 @@ Explain open automation here
 ### Derivatives
 
 Explain Derivatives
- + UCSD
- + UCSD Express (Hadoop) - http://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-director-express-big-data/index.html
- - Cisco UCS Director Express for Big Data provides a single-touch solution that automates Hadoop deployment on the Cisco UCS Common Platform Architecture (CPA) for Big Data infrastructure. It also provides a single management pane across both physical infrastructure and Hadoop software. All elements of the infrastructure are handled automatically with little user input.
- 
- UCSD ICF (Inter Cloud) 
- UCSD VACS (Containers on Steroids) 
- UCSD IMC Supervisor
+##### **UCSD**
+##### **UCSD Express (Hadoop)** - <http://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-director-express-big-data/index.html>
+ <p>Cisco UCS Director Express for Big Data provides a single-touch solution that automates Hadoop deployment on the Cisco UCS Common Platform Architecture (CPA) for Big Data infrastructure. It also provides a single management pane across both physical infrastructure and Hadoop software. All elements of the infrastructure are handled automatically with little user input.</P>
+##### **UCSD ICF (Inter Cloud)**
+<p></P> 
+##### **UCSD VACS (Containers on Steroids)** 
+<p></P> 
+##### **UCSD IMC Supervisor** - <http://www.cisco.com/c/en/us/support/servers-unified-computing/integrated-management-controller-imc-supervisor/tsd-products-support-series-home.html>
+<p>Management Controller (IMC) Supervisor enables centralized management for standalone Cisco UCS® C-Series Rack Servers and E-Series Servers located across one or more sites.  ***Everything that can be done IMC Supervisor can be done in UCSD**.*  </P> 
  
  
 
