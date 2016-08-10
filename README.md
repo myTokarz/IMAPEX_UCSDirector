@@ -32,7 +32,11 @@ Explain UCSD communites
 
 **Task Index**
 
-### Some Important Examlpe Worflows
+### Some Important Example Worflows
+
+### Customization
+
+**Custom Task**
 
 ### Open Automation
 
