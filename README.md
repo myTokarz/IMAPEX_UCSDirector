@@ -112,9 +112,26 @@ If the need is to interface with Linux based systems we can ssh into a Linux ser
 ##  REST API
 ####Admin (upper right) --> Advanced
 
-Explain UCSD Rest API here, setting it up, API Key
-
 Call a UCSD workflow from Python - <https://communities.cisco.com/docs/DOC-56724> 
+
+```
+Request URL
+http://<UCSD_IP>/app/api/rest?formatType=json
+&opName=userAPISubmitWorkflowServiceRequest
+&opData={
+param0:"Change_VM_Size",
+param1:{ "list":[
+{ "name":"VM_Identity",
+"value":"45" },
+{ "name":"Update_CPU",
+"value":"2" },
+{ "name":"Update_RAM",
+"value":"2048" }
+] },
+param2:-1}
+
+
+```
 
 ##  REST API Browser
 
