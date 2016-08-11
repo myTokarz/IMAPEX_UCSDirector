@@ -120,18 +120,49 @@ Call a UCSD workflow from Python - <https://communities.cisco.com/docs/DOC-56724
 
 
 ##  Communities
-
-Explain UCSD communites
+Rely on communities to jump start development as well as provide reusable code.  The Cisco field maintains and publishes its code here.
 
 **Workflow Index**
 https://communities.cisco.com/docs/DOC-56419
 
 **Task Index**
-
+https://communities.cisco.com/docs/DOC-59594
 ## Some Important Examlpe Worflows
-+ Calling a workflow from a workflow - https://communities.cisco.com/docs/DOC-55973
+**Power Shell Examples**
+Administration -> Virtual -> Powershell Agents
+https://communities.cisco.com/docs/DOC-55779 (Power Shell with rollback)
+https://communities.cisco.com/docs/DOC-54044 (Power Shell AD DNS example)
+https://communities.cisco.com/docs/DOC-51153 (Host Profile building script / execute script)
+https://communities.cisco.com/docs/DOC-58250 (Passing Variables)
+https://communities.cisco.com/docs/DOC-55389 (Add VM to AD OU)
+https://communities.cisco.com/docs/DOC-59142 (AD computer account)
+https://communities.cisco.com/docs/DOC-59892 (Move VM to different OU in AD)
 
-+ Calling a REST API from a task
+**SSH**
+https://communities.cisco.com/docs/DOC-55502 (SSH with Rollback and command execute timer)
+
+**Check a System (alive?)**
+https://communities.cisco.com/docs/DOC-57682 (Ping)
+https://communities.cisco.com/docs/DOC-57813 (Telnet to port)
+https://communities.cisco.com/docs/DOC-60468 (Test port 3389 (RDP) is up)
+
+**Calling an External System Examples**
+https://communities.cisco.com/docs/DOC-56681 (Remedy)
+https://communities.cisco.com/docs/DOC-57415 (Infoblox)
+https://communities.cisco.com/docs/DOC-57756 (Infoblox with Multi VM)
+https://communities.cisco.com/docs/DOC-55447 (Serial Number Check)
+https://communities.cisco.com/docs/DOC-58161 (Open Stack)
+https://communities.cisco.com/docs/DOC-58262 (Puppet)
+https://communities.cisco.com/docs/DOC-58279 (Puppet)
+https://communities.cisco.com/docs/DOC-60481 (Puppet / Foreman)
+https://communities.cisco.com/docs/DOC-51157 (Rest Call)
+https://communities.cisco.com/docs/DOC-54240 (Service Now)
+https://communities.cisco.com/docs/DOC-61025 (Redhat Satellite Server)
+https://communities.cisco.com/docs/DOC-61021 (BlueCat)
+https://communities.cisco.com/docs/DOC-59904 (XtremIO Example)
+https://communities.cisco.com/docs/DOC-59842 (Nimble)
+https://communities.cisco.com/docs/DOC-64511 (PSC)
+
 
 ## Derivatives
 
