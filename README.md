@@ -105,9 +105,9 @@ If the need is to interface with Linux based systems we can ssh into a Linux ser
 
 #### Administration --> Support Information
 
- - Show log
- - Debug Logging
- - API Logging
+ - **Show log** - Views the logs of the different system components in the browser.  When developing against UCS Director check here first for API calls in and out of the system.  
+ - **Debug Logging** - Turns on and off debug logging.  If you can't find the data you need in show log try turning on debug logging.  This feature automatically runs for 30 minutes or when the user stops the debug log (whichever comes first).  
+ - **API Logging** - Similar to the deubg logging this turns on and off API logging for UCS Director.
 
 ##  REST API
 ####Admin (upper right) --> Advanced
