@@ -111,7 +111,8 @@ If the need is to interface with Linux based systems we can ssh into a Linux ser
 
 ##  REST API
 ####Admin (upper right) --> Advanced
-REST calls require an access key.
+REST calls require an access key.<BR>
+![alt text](https://github.com/myTokarz/IMAPEX_UCSDirector/blob/master/API-REST-1.png "Selecting options for the API Browser")<BR>
 <BR>Also check the box "Enable Developer Menu" to get example REST calls for reports inside of UCS Director.
 ![alt text](https://github.com/myTokarz/IMAPEX_UCSDirector/blob/master/REST-API-1.png "Sample REST auto generated")<BR>
 Call a UCSD workflow from Python - <https://communities.cisco.com/docs/DOC-56724> 
