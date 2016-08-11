@@ -16,12 +16,16 @@ Explain difference between tasks and workflows
 ### Developer Integration
 
 ####Administration --> Downloads
-Rest API SDK
-PowerShell Console
-Open Automation SDK
-Custom Tasks Scripts Samples
+##### **Rest API SDK**
+The Cisco UCS Director REST API SDK Bundle is part of the Cisco UCS Director REST API. In addition to documentation, such as Cookbook, the SDK Bundle provides examples that you can use with the REST API. These examples include test cases and sample code that demonstrates the use of the SDK classes. 
+##### **PowerShell Console**
 
-*Insert Screen shot of devloper tools*
+##### **Open Automation SDK**
+
+##### **Custom Tasks Scripts Samples**
+
+
+
 
 ### Logging
 
@@ -39,6 +43,8 @@ Explain UCSD Rest API here, setting it up, API Key
 Sample code here
 ```
 Call a UCSD workflow from Python - <https://communities.cisco.com/docs/DOC-56724> 
+
+###  REST API Browser
 
 
 ###  Communities
@@ -70,7 +76,7 @@ Explain Derivatives
 ##### **UCSD VACS (Containers on Steroids)** 
 <p></P> 
 ##### **UCSD IMC Supervisor** - <http://www.cisco.com/c/en/us/support/servers-unified-computing/integrated-management-controller-imc-supervisor/tsd-products-support-series-home.html>
-<p>Management Controller (IMC) Supervisor enables centralized management for standalone Cisco UCS® C-Series Rack Servers and E-Series Servers located across one or more sites.  ***Everything that can be done IMC Supervisor can be done in UCSD**.*  </P> 
+<p>Management Controller (IMC) Supervisor enables centralized management for standalone Cisco UCS® C-Series Rack Servers and E-Series Servers located across one or more sites.  Everything that can be done IMC Supervisor can be done in UCSD.  This</P> 
  
  
 
@@ -85,11 +91,12 @@ UCSD Coding Mailer - <ask-ucsd-api@cisco.com>
 UCS Director Fundamentals Guide:
 http://www.cisco.com/c/en/us/td/docs/unified_computing/ucs/ucs-director/fundamentals-guide/5-4/b_UCS_Director_Fundamentals_Guide_54.html
 
-New Cook Books
-http://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-director/products-programming-reference-guides-list.html
+Programing Guides
+<http://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-director/products-programming-reference-guides-list.html>
 
 All Configuration Guides
-http://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-director/products-installation-and-configuration-guides-list.html
+<http://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-director/products-installation-and-configuration-guides-list.html>
+
 
 
 
