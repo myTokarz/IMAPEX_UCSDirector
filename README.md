@@ -133,10 +133,6 @@ https://communities.cisco.com/docs/DOC-56419
 
 + Calling a REST API from a task
 
-## Open Automation
-
-Explain open automation here
-
 ## Derivatives
 
 Outside of the main product suite, UCS Director comes in different forms.
