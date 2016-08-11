@@ -114,9 +114,11 @@ If the need is to interface with Linux based systems we can ssh into a Linux ser
 REST calls require an access key.<BR>
 ![alt text](https://github.com/myTokarz/IMAPEX_UCSDirector/blob/master/API-REST-1.png "Selecting options for the API Browser")<BR>
 <BR>Also check the box "Enable Developer Menu" to get example REST calls for reports inside of UCS Director.
-![alt text](https://github.com/myTokarz/IMAPEX_UCSDirector/blob/master/REST-API-1.png "Sample REST auto generated")<BR>
-Call a UCSD workflow from Python - <https://communities.cisco.com/docs/DOC-56724> 
+![alt text](https://github.com/myTokarz/IMAPEX_UCSDirector/blob/master/REST-API-1.png "Sample REST auto generated")<BR><BR>
+Call a UCSD workflow from Python - <https://communities.cisco.com/docs/DOC-56724> <BR>
 
+
+**Example REST API Call**
 ```
 Request URL
 http://<UCSD_IP>/app/api/rest?formatType=json
@@ -204,10 +206,7 @@ Outside of the main product suite, UCS Director comes in different forms.
 ##### **UCSD IMC Supervisor** - <http://www.cisco.com/c/en/us/support/servers-unified-computing/integrated-management-controller-imc-supervisor/tsd-products-support-series-home.html>
 <p>Management Controller (IMC) Supervisor enables centralized management for standalone Cisco UCS® C-Series Rack Servers and E-Series Servers located across one or more sites.  Everything that can be done IMC Supervisor can be done in UCSD.  This</P> 
  
- 
 
- 
- 
 
 ## Further Help
 UCSD Coding Mailer - <ask-ucsd-api@cisco.com>
