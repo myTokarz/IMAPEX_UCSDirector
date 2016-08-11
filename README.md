@@ -30,8 +30,25 @@ Workflows reflect the unique procedures of different organizations
 
 Explain UCSD Rest API here
 ```
-Sample code here
+Request URL
+http://<UCSD_IP>/app/api/rest?formatType=json
+&opName=userAPISubmitWorkflowServiceRequest
+&opData={
+param0:"Change_VM_Size",
+param1:{ "list":[
+{ "name":"VM_Identity",
+"value":"45" },
+{ "name":"Update_CPU",
+"value":"2" },
+{ "name":"Update_RAM",
+"value":"2048" }
+] },
+param2:-1}
+
+
 ```
+
+
 
 ###  Communities
 
