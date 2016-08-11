@@ -111,6 +111,8 @@ If the need is to interface with Linux based systems we can ssh into a Linux ser
 
 ##  REST API
 ####Admin (upper right) --> Advanced
+REST calls require an access key.
+<BR>Also check the box "Enable Developer Menu" to get 
 
 Call a UCSD workflow from Python - <https://communities.cisco.com/docs/DOC-56724> 
 
@@ -134,7 +136,12 @@ param2:-1}
 ```
 
 ##  REST API Browser
+In parallel with the first “Workflows” tab, you would see “REST API Browser.”
 
+On the left side of the pane are the folders for tasks. You can navigate the structure and double click any one of the tasks for a dialog box with three tabs on the top: API Examples, Details, Sample Java Code.
+
+With the API Example tab, you can find the URL, HTTP method. You can also select context for the API call and generate a sample XML request, which can be executed by the “Execute REST API” button below. Upon execution, you would see the XML response at the bottom.
+The Details tab list API details for the selected task. But the last tab “Sample Java Code” provides you the generate Java code for running the task. That is definitely very helpful to get started with Java programming on the UCS Director REST APIs. I’ll cover that in a later article.
 
 ##  Communities
 Rely on communities to jump start development as well as provide reusable code.  The Cisco field maintains and publishes its code here.
@@ -212,6 +219,7 @@ Programing Guides<BR>
 
 All Configuration Guides<BR>
 <http://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-director/products-installation-and-configuration-guides-list.html>
+
 
 
 
