@@ -160,8 +160,8 @@ https://communities.cisco.com/docs/DOC-54240 (Service Now)
 https://communities.cisco.com/docs/DOC-61025 (Redhat Satellite Server)
 https://communities.cisco.com/docs/DOC-61021 (BlueCat)
 https://communities.cisco.com/docs/DOC-59904 (XtremIO Example)
-https://communities.cisco.com/docs/DOC-59842 (Nimble)
-https://communities.cisco.com/docs/DOC-64511 (PSC)
+<BR>https://communities.cisco.com/docs/DOC-59842 (Nimble)
+<BR>https://communities.cisco.com/docs/DOC-64511 (PSC)
 
 
 ## Derivatives
