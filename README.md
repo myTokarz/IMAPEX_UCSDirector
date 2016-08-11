@@ -80,18 +80,26 @@ for (var i=0; i<report.rowCount(); i++)
 
 output.VMsAssigned =  count
 ```
+
 ## Developer Integration
 ####Administration --> Downloads
 ##### **Rest API SDK**<BR>
-The Cisco UCS Director REST API SDK Bundle is part of the Cisco UCS Director REST API. In addition to documentation, such as Cookbook, the SDK Bundle provides examples that you can use with the REST API. These examples include test cases and sample code that demonstrates the use of the SDK classes. 
+UCS Director REST API SDK Bundle is part of the UCS Director REST API. In addition to documentation, such as Cookbook, the SDK Bundle provides examples that you can use with the REST API. These examples include test cases and sample code that demonstrates the use of the SDK classes. 
 ##### **PowerShell Console**<BR>
-Cisco UCS Director PowerShell Console provides cmdlet wrappers for the JSON-based APIs. Each cmdlet performs a single operation. The cmdlets are executed in a Microsoft Windows server. Depending on the data returned by the JSON-based APIs, the cmdlets automatically interpret the data and convert it into Windows PowerShell objects. You can chain multiple cmdlets together. After installed to view a list of available cmdlets, execute 'Get-Command'.
+UCS Director PowerShell Console provides cmdlet wrappers for the JSON-based APIs. Each cmdlet performs a single operation. The cmdlets are executed in a Microsoft Windows server. Depending on the data returned by the JSON-based APIs, the cmdlets automatically interpret the data and convert it into Windows PowerShell objects. You can chain multiple cmdlets together. After installed to view a list of available cmdlets, execute 'Get-Command'.
 ##### **Open Automation SDK**<BR>
-The Cisco UCS Director platform architecture consists of two components: the Cisco UCS Director Platform Runtime and the set of modules that get executed on the platform. The platform provides the required APIs and management functionality so that the modules can perform their intended functions. The modules provide the necessary intelligence and features. The platform provides a loosely-coupled plug-in architecture where modules can be developed, deployed and executed against the platform.  Using tools such as Cisco UCS Director Open Automation and the SDK, you can develop and deploy a module that can be executed on the Cisco UCS Director platform runtime.
+The platform architecture consists of two components: the Cisco UCS Director Platform Runtime and the set of modules that get executed on the platform. The platform provides the required APIs and management functionality so that the modules can perform their intended functions. The modules provide the necessary intelligence and features. The platform provides a loosely-coupled plug-in architecture where modules can be developed, deployed and executed against the platform.  Using tools such as UCS Director Open Automation and the SDK, you can develop and deploy a module that can be executed on the Cisco UCS Director platform runtime.
 ##### **Custom Tasks Scripts Samples**<BR>
+A long list of example Custom Tasks as well as supporting documentation.
 
+## The Developer Experience
+Because UCS Director is a coding platform itself it is important to understand the differences between what the platform does internally and how you as a develop can interface with it.
 
+The base code of UCS Director runs on java and is extended through Cloupia libraries.  The main interface the user is going to have inside the system is through javascript.  All custom tasks are supported through javascript only.  To break outside this the user can utilize java inherently inside javascript but you will still have to abide by the rules of the javascript server.
 
+Javascript can't do everything and sometimes accomplishing tasks inside of UCS Director needs to be done with a different approach.  If a windows based task is needed consider using the Powershell agent as this is a swiss army knife plugin that allows the user to interface and accomplish anything that can be scripted against windows or other vendors that provide powershell functions.
+
+If the need is to interface with Linux based systems we can ssh into a Linux server and write custom scripts there.  
 
 ## Logging
 
@@ -105,9 +113,7 @@ The Cisco UCS Director platform architecture consists of two components: the Cis
 ####Admin (upper right) --> Advanced
 
 Explain UCSD Rest API here, setting it up, API Key
-```
-Sample code here
-```
+
 Call a UCSD workflow from Python - <https://communities.cisco.com/docs/DOC-56724> 
 
 ##  REST API Browser
@@ -140,7 +146,7 @@ Outside of the main product suite, UCS Director comes in different forms.
 ##### **UCSD ICF Plugin (Inter Cloud)**
 <p></P> 
 ##### **UCSD VACS Plugin (Containers on Steroids)** 
-<p></P> 
+<p>A serpately licensed product inside UCS Director to logically isolate virtual application workloads at the virtual layer.</P> 
 ##### **UCSD IMC Supervisor** - <http://www.cisco.com/c/en/us/support/servers-unified-computing/integrated-management-controller-imc-supervisor/tsd-products-support-series-home.html>
 <p>Management Controller (IMC) Supervisor enables centralized management for standalone Cisco UCS® C-Series Rack Servers and E-Series Servers located across one or more sites.  Everything that can be done IMC Supervisor can be done in UCSD.  This</P> 
  
