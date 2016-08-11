@@ -11,6 +11,15 @@ Intro here
 ### UCS Director Tasks
 Explain difference between tasks and workflows
 
+Tasks should be atomic operations - create a Lun, Set the number of CPUs in a VM, Register an IP address
+
+Tasks are common behaviors that are common across organizations
+
+Workflows are structured chains of tasks - can include flow control (branching, loops)
+
+Workflows reflect the unique procedures of different organizations
+
+
  - Reports and converting them into tasks
 
 ### Logging
