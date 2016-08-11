@@ -47,6 +47,10 @@ Explain UCSD communites
 
 **Custom Task**
 
+Example Custom Task - UCSD Integration with Ansible Tower
+https://github.com/blairhicks/ucsd-ansible-tower.git
+
+
 ### Open Automation
 
 Explain open automation here
